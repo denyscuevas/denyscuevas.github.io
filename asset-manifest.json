@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.4f72ebb5.css",
-    "main.js": "/static/js/main.b75b3ae9.js",
+    "main.css": "/static/css/main.6af92b51.css",
+    "main.js": "/static/js/main.02212f8d.js",
     "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "static/media/DenysLogo.png": "/static/media/DenysLogo.118d249ba5db6e6eea53.png",
     "static/media/newLogo.png": "/static/media/newLogo.20ecef4457ff63e62261.png",
     "static/media/githublogo.png": "/static/media/githublogo.30ae2a34cc0788d60038.png",
     "index.html": "/index.html",
-    "main.4f72ebb5.css.map": "/static/css/main.4f72ebb5.css.map",
-    "main.b75b3ae9.js.map": "/static/js/main.b75b3ae9.js.map",
+    "main.6af92b51.css.map": "/static/css/main.6af92b51.css.map",
+    "main.02212f8d.js.map": "/static/js/main.02212f8d.js.map",
     "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f72ebb5.css",
-    "static/js/main.b75b3ae9.js"
+    "static/css/main.6af92b51.css",
+    "static/js/main.02212f8d.js"
   ]
 }
