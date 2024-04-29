@@ -1,12 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
+// import components
+import Navbar from './Components/Navbar';
+import Home from './Components/Home';
+import About from './Components/About';
+import Projects from './Components/Projects';
+import Contact from './Components/Contact';
+import BlankSpace from './Components/BlankSpace';
+document.title = "Denys Cuevas";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1> My app </h1>
-      </header>
+        <Navbar />
+        <Home/>
+        <About/>
+        <Projects/>
+        <Contact/>
+        <BlankSpace/>
+
     </div>
   );
 }

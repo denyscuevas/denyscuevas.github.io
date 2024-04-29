@@ -1,38 +1,233 @@
-.App {
-  text-align: center;
+html {
+  scroll-behavior: smooth;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Navbar {
+  background-color: #1c1b1b;
+  position: fixed;
+  top: 0px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 100%;
+  z-index: 999; /* Adjust the z-index as needed */
+}
+.Navbar a:nth-last-child(4){
+  margin-left: auto; /* Push the last three headers to the right */
+}
+
+.Navbar a{
+  color: rgb(198, 196, 196);
+  font-weight: bold;
+  font-size: 35px;
+  text-decoration: none;
+  padding: 10px 15px;
+
+
+}
+.Navbar a:first-child {
+  color: rgb(198, 196, 196);
+  font-weight: bold;
+  font-size: 35px;
+  text-decoration: none;
+  padding: 10px 15px;
+  margin-left: 100px;
+
+}
+
+
+.Navbar a:hover{
+  color:white;
+  transform: scale(1.005);
+  cursor: pointer;
+}
+
+
+
+.Home {
+  display: flex;
+  height: 100vh;
+  flex-direction: column; /* Ensure flex items stack vertically */
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: left;
+  margin-right: 200px;
+}
+.HomeMiddle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.HomeMiddle p {
+  margin: 0; /* Reset margin for paragraphs */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text  {
+ margin-top: 100px;
+}
+
+
+.Buttons{
+  margin-top: 20px; /* Adjust the value as needed */
+  display: flex;
+  justify-content: center;
+  
+}
+.Buttons button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.Buttons .button-img:hover{
+  transform: translate(0%, -2%);
+}
+
+
+.button-img {
+  width: 70px;
+  height: 70px;
+}
+
+.DenysLogo{
+  width: 300px;
+  height: 300px;
+}
+
+.About {
+  display: flex;
+  flex-direction: column; /* Ensure flex items stack vertically */
+  justify-content: top;
+  align-items: center;
+  height: 600px;
+  color: #ffffff;
+  font-size: 40px;
+  flex-wrap: wrap; /* Allow flex items to wrap onto multiple lines */
+}
+
+.AboutMiddle{
+  justify-content: center;
+  flex-direction: column;
+  align-items: left;
+  display: flex;
+  text-align: left;
+  font-size: 25px;
+  flex-wrap: wrap; /* Allow flex items to wrap onto multiple lines */
+  text-wrap:wrap;
+  width:700px
+}
+
+.AboutMiddle p {
+  margin: 0; /* adds 1 unit of spacing after each paragraph */
+}
+
+.Projects {
+  display: flex;
+  flex-direction: column; /* Ensure flex items stack vertically */
+  justify-content: top;
+  align-items: center;
+  height: 600px;
+  color: #ffffff;
+  font-size: 40px;
+  flex-wrap: wrap; /* Allow flex items to wrap onto multiple lines */
+}
+
+.ProjectsMiddle {
+  justify-content: left;
+  flex-direction: column;
+  align-items: left;
+  display: flex;
+  text-align: left;
+  font-size: 25px;
+  flex-wrap: wrap; /* Allow flex items to wrap onto multiple lines */
+  text-wrap:wrap;
+  width:700px
+}
+
+
+.Contact {
+  display: flex;
+  flex-direction: column; /* Ensure flex items stack vertically */
+  justify-content: top;
+  align-items: center;
+  height: 600px;
+  color: #ffffff;
+  font-size: 40px;
+  flex-wrap: wrap; /* Allow flex items to wrap onto multiple lines */
+}
+
+.ContactMiddle {
+  justify-content: left;
+  flex-direction: column;
+  align-items: left;
+  display: flex;
+  text-align: left;
+  font-size: 25px;
+  flex-wrap: wrap; /* Allow flex items to wrap onto multiple lines */
+  text-wrap:wrap;
+  width:700px
+}
+
+.Form{
+  background-color: #1c1b1b;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  width: 80%;
+}
+
+.formLabel {
+  background-color: rgb(198, 196, 196);
+  padding: 12px;
+  margin: 10px 0px;
+  border-radius: .375rem;
+  width: 100%;
+  height:20px;
+  border: none;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.formLabelM {
+  padding: 12px;
+  background-color: rgb(198, 196, 196);
+  margin: 10px 0px;
+  border-radius:.375rem;
+  width: 100%;
+  font-weight: bold;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.formButton {
+  padding: 12px;
+  margin: 10px 0px;
+  border-radius: .375rem;
+  border: none;
+  width: 25%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: rgb(198, 196, 196);
+  
+}
+
+
+body{
+  background-color: #1c1b1b
+}
+
+.BlankSpace {
+  display: flex;
+  height: 20vh;
+  flex-direction: column; /* Ensure flex items stack vertically */
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: left;
+  margin-right: 200px;
+}
+.BlankSpaceMiddle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
